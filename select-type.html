@@ -109,13 +109,20 @@
       </div>
     </section>
     <section class="auto-debit-section">
-      <div class="container">
+      <div>
         <h2 class="title">How would you like to proceed?</h2>
         <form action="" class="auto-debit">
           <fieldset>
             <div class="part">
-              <input type="checkbox" />
-            <span class="checkmark"></span>
+              <label for="radio1">
+                <input
+                  type="radio"
+                  id="radio1"
+                  class="radio"
+                  name="same-form"
+                />
+                <div class="circle"></div>
+              </label>
               <div class="text-box">
                 <h2 class="intro">Buy with Auto Debit</h2>
                 <div class="price-details">
@@ -153,6 +160,26 @@
                   </clipPath>
                 </defs>
               </svg>
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="part">
+              <label for="radio2">
+                <input
+                  type="radio"
+                  id="radio2"
+                  class="radio"
+                  name="same-form"
+                />
+                <div class="circle"></div>
+              </label>
+              <div class="text-box">
+                <h2 class="intro">Buy with Auto Debit</h2>
+                <div class="price-details">
+                  <p class="price">৳2,000</p>
+                  <p class="meta-price">USD 20.00</p>
+                </div>
+              </div>
             </div>
           </fieldset>
         </form>

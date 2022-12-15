@@ -3,47 +3,8 @@
     display: block;
     margin: 0 auto;
     background: #EFF2F5;
-    .navbar {
-        background-color: #0078CF;
-        margin-bottom: 14px;
-        .nav-container {
-            padding: 16px 16px;
-            display: flex;
-            .nav-title {
-                color: #FFFFFF;
-                font-weight: 500;
-                font-size: 18px;
-                line-height: 26px;
-                margin: 0;
-                margin-left: 32px;
-            }
-        }
-    }
-    .header {
-        background-color: #FFFFFF;
-        .header-container {
-            text-align: center;
-            .text-box {
-                // margin: 16px 0;
-                .header-title {
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 1.4;
-                    // letter-spacing: 0.0015em;
-                     color: #1A1A1A;
-                     margin: 0;
-                }
-                
-                    .header-intro {
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 22px;
-                        color: #676767;
-                        margin: 0;
-                    }
-            }
-        }
-    }
+    
+    
     .activation-setps {
         background-color: #ffffff;
         .content {
@@ -208,33 +169,6 @@
             }
         }
     }
-                .footer {
-                    background-color: #ffffff;
-        
-                    .footer-container {
-                        max-width: 440px;
-                        padding: 13px 16px;
-        
-                        .inner-container {
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-        
-                            .information {
-                                display: flex;
-        
-                                .text {
-                                    font-weight: 400;
-                                    font-size: 14px;
-                                    line-height: 22px;
-                                    letter-spacing: 0.005em;
-                                    color: #1A1A1A;
-                                    margin: 0 12px;
-                                }
-                            }
-        
-                        }
-                    }
-                }
+               
 }
 

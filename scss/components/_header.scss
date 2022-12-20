@@ -1,0 +1,28 @@
+.header {
+    background-color: #FFFFFF;
+
+    .header-container {
+        text-align: center;
+
+        .text-box {
+
+            // margin: 16px 0;
+            .header-title {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.4;
+                // letter-spacing: 0.0015em;
+                color: #1A1A1A;
+                margin: 0;
+            }
+
+            .header-intro {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                color: #676767;
+                margin: 0;
+            }
+        }
+    }
+}

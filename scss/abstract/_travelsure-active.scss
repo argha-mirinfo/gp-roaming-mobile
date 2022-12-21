@@ -1,0 +1,23 @@
+#travelsure-active {
+    max-width: 440px;
+    display: block;
+    margin: 0 auto;
+
+    .navbar {
+        background-color: #0078CF;
+
+        .nav-container {
+            padding: 16px 16px;
+            display: flex;
+
+            .nav-title {
+                color: #FFFFFF;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 26px;
+                margin: 0;
+                margin-left: 32px;
+            }
+        }
+    }
+}

@@ -161,18 +161,15 @@
                     
                     label {
                         display: flex;
-                        
                     }
                     input {
                         display: none;
                         &:checked {
-                        
                             ~.circle {
                                 &::after {
                                     opacity: 1;
                                 }
                             }
-                                
                         }
                     }
                 .circle {

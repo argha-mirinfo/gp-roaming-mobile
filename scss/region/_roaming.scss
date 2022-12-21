@@ -7,6 +7,9 @@
     
     .activation-setps {
         background-color: #ffffff;
+        .btn-section {
+                padding: 0 16px;
+            }
         .content {
             display: block;
             margin: 0 auto;
@@ -14,6 +17,7 @@
             justify-content: center;
             align-items: center;
             border-top: 1px solid rgba(0, 0, 0, 0.08);
+            
             .content-title {
                 font-weight: 500;
                 font-size: 16px;
@@ -99,26 +103,7 @@
                 }
             }
         }
-        #btn {
-            padding: 16px 16px 20px 16px;
-            .btn {
-                    background: #0078CF;
-                    border-radius: 2px;
-                    color: #FFFFFF;
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 20px;
-                    padding: 10px 0;
-                    width: 100%;
-                    margin: 0 auto;
-                    max-width: 328px;
-                    justify-content: center;
-                    align-items: center;
-                    display: flex;
-            
-            
-                }
-        }
+        
        
 
     }

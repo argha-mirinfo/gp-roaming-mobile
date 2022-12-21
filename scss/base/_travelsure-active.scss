@@ -4,7 +4,7 @@
     margin: 0 auto;
     background: #EFF2F5;
      
-        .header { 
+    .header { 
             background-color: #ffffff;
             .container {
                 max-width: 440px;
@@ -76,9 +76,9 @@
                     }
                 }
             }
-        }
+    }
         
-        .billing {
+    .billing {
             background-color: #ffffff;
             margin: 1px 0 8px 0;
             .container {
@@ -111,8 +111,8 @@
                 }
                 
             }
-        }
-        .status {
+    }
+    .status {
                     background-color: #ffffff;
                     margin: 1px 0 8px 0;
         
@@ -156,8 +156,8 @@
                             }
                         }
                     }
-        }
-        .data-usage {
+    }
+    .data-usage {
             background-color: #ffffff;
                 margin: 8px 0 ;
             .container {
@@ -209,6 +209,61 @@
                         }
                     }
             }
+    }
+    .offer-available {
+        background-color: #EAFFFE;
+        box-sizing: border-box;
+        .container {
+            padding: 14px 16px 12px 4px;
+            display: flex;
+            // justify-content: space-between;
+            .first-col {
+                display: flex;
+                .offer-icon {
+                    position: relative;
+                    margin-right: 8px;
+                    .challenges-hero-icon {
+                        // position: relative;
+                    }
+                    .three-d-bundles-icon {
+                        position:absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translate(59%,
+                            -64%);
+                    }
+                
+                }
+                .text-box {
+                    margin-right: 12px;
+                    .offer-title{
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 22px;
+                        color: #373C50;
+                        margin: 0;
+                    }
+                    .offer-description {
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 14px;
+                        color: #373C50;
+                        margin: 0;
+                    }
+                }
+            }
+            .second-col {
+                .btn {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.005em;
+                    color: #FFFFFF;
+                }
+            }
         }
+    }
     
 }

@@ -1,0 +1,34 @@
+#billing {
+    max-width: 440px;
+    margin: 0 auto;
+    display: block;
+    background-color: #EFF2F5;
+    .limit-breakdown {
+        background-color: #ffffff;
+        padding: 16px;
+        margin: 0 auto;
+            .title {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 26px;
+                letter-spacing: 0.0015em;
+                color: #1A1A1A;
+                margin: 0 0 8px 0;
+            }
+            .deposit-limit {
+                display: flex;
+                justify-content: space-between;
+            }
+            .provided-limit {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 9px;
+                border-bottom: 1px solid #F5F5F5;
+            }
+            .available-balance {
+                display: flex;
+                justify-content: space-between;
+            }
+        
+    }
+}

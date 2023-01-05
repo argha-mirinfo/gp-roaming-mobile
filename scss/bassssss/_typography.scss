@@ -1,0 +1,13 @@
+@use './mixins' as *;
+
+html {
+    font-size: 62.5%;
+}
+
+.header-title {
+    @include set-font('header-title');
+}
+
+.header-intro {
+    @include set-font('header-intro')
+}

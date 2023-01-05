@@ -1,0 +1,15 @@
+@use './variable' as *;
+
+@mixin set-font($type) {
+    @if $type == 'header-title' {
+        font-weight: 500;
+        font-size: $fs-20;
+        line-height: 1.4;
+    }
+
+    @if $type == 'header-intro' {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

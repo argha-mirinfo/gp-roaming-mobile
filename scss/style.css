@@ -3,6 +3,9 @@
   margin: auto;
   background-color: #EFF2F5;
 }
+#roaming-status .container {
+  margin-bottom: 100px;
+}
 #roaming-status .container .navbar {
   display: flex;
   flex-direction: row;
@@ -141,7 +144,488 @@
   border-radius: 2px;
   color: white;
 }
-
-P {
-  color: red;
+#roaming-status .container-2 {
+  margin-bottom: 100px;
+}
+#roaming-status .container-2 .navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #19AAF8;
+  margin-bottom: 14px;
+  padding: 16px;
+}
+#roaming-status .container-2 .navbar .arrow {
+  margin-right: 32px;
+}
+#roaming-status .container-2 .navbar p {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "telenor";
+  margin: 0;
+}
+#roaming-status .container-2 .page-content {
+  display: flex;
+  flex-direction: column;
+  height: 361px;
+  width: 360px;
+}
+#roaming-status .container-2 .page-content .section {
+  width: 360px;
+  height: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 16px 20px;
+  box-sizing: border-box;
+  background-color: white;
+}
+#roaming-status .container-2 .page-content .section .illustration {
+  width: 120px;
+  height: 120px;
+}
+#roaming-status .container-2 .page-content .section .text-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 328px;
+  height: 26px;
+  gap: 8px;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+#roaming-status .container-2 .page-content .section .text-content p {
+  font-family: "telenor";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 16px;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+#roaming-status .container-2 .page-content .section-2 {
+  width: 360px;
+  height: 398px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 20px;
+  box-sizing: border-box;
+}
+#roaming-status .container-2 .page-content .section-2 .current-type {
+  width: 328px;
+  height: 70px;
+  display: flex;
+  flex-direction: none;
+  align-items: center;
+  background-color: #F0FFF1;
+}
+#roaming-status .container-2 .page-content .section-2 .current-type .icon {
+  padding: 23px 16px;
+}
+#roaming-status .container-2 .page-content .section-2 .current-type .content {
+  width: 265px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#roaming-status .container-2 .page-content .section-2 .current-type .content .text-1 {
+  font-family: "Telenor";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1A1A1A;
+}
+#roaming-status .container-2 .page-content .section-2 .current-type .content .text-2 {
+  font-family: "Telenor";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+#roaming-status .container-2 .page-content .section-2 .action {
+  width: 328px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+#roaming-status .container-2 .page-content .section-2 .action .btn-1 {
+  width: 100%;
+  height: 40px;
+  font-family: "Telenor";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #676767;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+#roaming-status .container-2 .page-content .section-2 .action .btn-2 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  font-family: "Telenor";
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #0078CF;
+  border: 1px solid #676767;
+  border-radius: 2px;
+  color: white;
+}
+#roaming-status .container-3 {
+  margin-bottom: 100px;
+}
+#roaming-status .container-3 .navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #19AAF8;
+  margin-bottom: 14px;
+  padding: 16px;
+}
+#roaming-status .container-3 .navbar .arrow {
+  margin-right: 32px;
+}
+#roaming-status .container-3 .navbar p {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "telenor";
+  margin: 0;
+}
+#roaming-status .container-3 .page-content {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 472px;
+}
+#roaming-status .container-3 .page-content .section {
+  width: 360px;
+  height: 472px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 16px 20px;
+  box-sizing: border-box;
+  background-color: white;
+}
+#roaming-status .container-3 .page-content .section .illustration {
+  width: 120px;
+  height: 120px;
+}
+#roaming-status .container-3 .page-content .section .text-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 328px;
+  height: 100px;
+  gap: 8px;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+#roaming-status .container-3 .page-content .section .text-content p {
+  font-family: "telenor";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 16px;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+#roaming-status .container-3 .page-content .section .text-content .request {
+  width: 264px;
+  height: 66px;
+  padding-left: 48px;
+  padding-right: 48px;
+  font-family: "Telenor";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #676767;
+  text-align: center;
+}
+#roaming-status .container-3 .page-content .section-2 {
+  width: 360px;
+  height: 398px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 20px;
+  box-sizing: border-box;
+}
+#roaming-status .container-3 .page-content .section-2 .current-type {
+  width: 328px;
+  height: 70px;
+  display: flex;
+  flex-direction: none;
+  align-items: center;
+  background-color: #F0FFF1;
+}
+#roaming-status .container-3 .page-content .section-2 .current-type .icon {
+  padding: 23px 16px;
+}
+#roaming-status .container-3 .page-content .section-2 .current-type .content {
+  width: 265px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#roaming-status .container-3 .page-content .section-2 .current-type .content .text-1 {
+  font-family: "Telenor";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1A1A1A;
+}
+#roaming-status .container-3 .page-content .section-2 .current-type .content .text-2 {
+  font-family: "Telenor";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+#roaming-status .container-3 .page-content .section-2 .action {
+  width: 328px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+#roaming-status .container-3 .page-content .section-2 .action .btn-1 {
+  width: 100%;
+  height: 40px;
+  font-family: "Telenor";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #676767;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+#roaming-status .container-3 .page-content .section-2 .action .btn-2 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  font-family: "Telenor";
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #0078CF;
+  border: 1px solid #676767;
+  border-radius: 2px;
+  color: white;
+}
+#roaming-status .container-modal {
+  margin-bottom: 300px;
+}
+#roaming-status .container-modal .modal {
+  width: 296px;
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 24px 16px;
+  gap: 16px;
+  border-radius: 2px;
+  border: 1px solid white;
+}
+#roaming-status .container-modal .modal .icon {
+  text-align: center;
+}
+#roaming-status .container-modal .modal .text {
+  width: 264px;
+  height: 52px;
+  color: #1A1A1A;
+  font-family: "Telenor";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+#roaming-status .container-modal .modal .btn-1 {
+  width: 100%;
+  height: 40px;
+  font-family: "Telenor";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0078CF;
+  border: 1px solid #676767;
+  border-radius: 2px;
+  margin-right: 8px;
+  color: white;
+}
+#roaming-status .container-modal .modal .btn-2 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  font-family: "Telenor";
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #676767;
+  border-radius: 2px;
+}
+#roaming-status .container-modal .navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #19AAF8;
+  margin-bottom: 14px;
+  padding: 16px;
+}
+#roaming-status .container-modal .navbar .arrow {
+  margin-right: 32px;
+}
+#roaming-status .container-modal .navbar p {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "telenor";
+  margin: 0;
+}
+#roaming-status .container-modal .page-content {
+  display: flex;
+  flex-direction: column;
+  height: 361px;
+  width: 360px;
+}
+#roaming-status .container-modal .page-content .section {
+  width: 360px;
+  height: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 16px 20px;
+  box-sizing: border-box;
+  background-color: white;
+  margin-bottom: 1px;
+}
+#roaming-status .container-modal .page-content .section .illustration {
+  width: 120px;
+  height: 120px;
+}
+#roaming-status .container-modal .page-content .section .text-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 328px;
+  height: 26px;
+  gap: 8px;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+#roaming-status .container-modal .page-content .section .text-content p {
+  font-family: "telenor";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 16px;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+#roaming-status .container-modal .page-content .section-2 {
+  width: 360px;
+  height: 162px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 20px;
+  box-sizing: border-box;
+}
+#roaming-status .container-modal .page-content .section-2 .current-type {
+  width: 328px;
+  height: 70px;
+  display: flex;
+  flex-direction: none;
+  align-items: center;
+  background-color: #F0FFF1;
+}
+#roaming-status .container-modal .page-content .section-2 .current-type .icon {
+  padding: 23px 16px;
+}
+#roaming-status .container-modal .page-content .section-2 .current-type .content {
+  width: 265px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#roaming-status .container-modal .page-content .section-2 .current-type .content .text-1 {
+  font-family: "Telenor";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #676767;
+}
+#roaming-status .container-modal .page-content .section-2 .current-type .content .text-2 {
+  font-family: "Telenor";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+#roaming-status .container-modal .page-content .section-2 .action {
+  width: 328px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+#roaming-status .container-modal .page-content .section-2 .action .btn-1 {
+  width: 160px;
+  height: 40px;
+  font-family: "Telenor";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #676767;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+#roaming-status .container-modal .page-content .section-2 .action .btn-2 {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  font-family: "Telenor";
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #0078CF;
+  border: 1px solid #676767;
+  border-radius: 2px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

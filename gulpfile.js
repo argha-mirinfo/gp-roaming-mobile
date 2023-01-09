@@ -6,7 +6,6 @@ const concat = require('gulp-concat');
 function style() {
   return gulp
     .src("./scss/**/*.scss")
-    .pipe(concat('styles.scss'))
     .pipe(sourcemaps.init())
     .pipe(sass({ outputStyle: "compressed" }))
     .pipe(sourcemaps.write("."))

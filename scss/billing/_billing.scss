@@ -8,7 +8,7 @@
         padding: 16px;
         margin: 0 auto;
             .title {
-                font-weight: 500;
+                font-weight: 500; 
                 font-size: 18px;
                 line-height: 26px;
                 letter-spacing: 0.0015em;
@@ -18,17 +18,130 @@
             .deposit-limit {
                 display: flex;
                 justify-content: space-between;
+                h3 {
+                    margin: 0;
+                }
             }
             .provided-limit {
                 display: flex;
                 justify-content: space-between;
                 margin-bottom: 9px;
                 border-bottom: 1px solid #F5F5F5;
+                h3 {
+                    margin: 0;
+                }
             }
             .available-balance {
                 display: flex;
                 justify-content: space-between;
+                color: #1A1A1A;
+                h3 {
+                    margin: 0;
+                }
+            }
+            .increase-btn {
+                border: 1px solid #676767;
+                border-radius: 2px;
+                color: #1A1A1A;
+                background-color: transparent;
+                margin-bottom: 5px;
+                
             }
         
     }
+    .hide-breakdown {
+        background-color: #ffffff;
+        text-align: center;
+        margin: 2px 0 8px;
+        padding: 13px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.005em;
+        color: #0078CF;
+    }
+    .billing-and-payment {
+        background: #FFFFFF;
+        padding: 16px;
+        .title {
+            color: #1A1A1A;
+        }
+        .previous-due{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 9px;
+            border-bottom: 1px solid #F5F5F5;
+            h3 {
+                margin: 0;
+            }
+            .due-price{
+                margin: 0;
+                color: #1A1A1A;
+                
+            }
+        }
+        .due-date{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 9px;
+            margin-bottom: 17px;
+
+            h3 {
+                margin: 0;
+            }
+
+            .due-date-time {
+                margin: 0;
+                color: #1A1A1A;
+            }
+        }
+        button {
+            margin-bottom: 0;
+        }
+    }
+    .billing-breakdown {
+        background-color: #ffffff;
+        padding: 16px;
+        margin-top: 1px;
+        .title {
+            margin: 0;
+            color: #1A1A1A;
+        }
+        .previous-roaming-due,.current-roaming-usage,.total-roaming-used {
+            display: flex;
+            justify-content: space-between;
+            .text-box {
+                h3 {
+                    margin: 0;
+                    color: #1A1A1A;
+                    margin-bottom: 4px;
+                    padding-top: 11px;
+                    
+                }
+                h4 {
+                    margin: 0;
+                    padding-bottom: 8px;
+                    border-bottom: 1px solid #F5F5F5;
+                }
+            }
+            .amount {
+                color: #1A1A1A;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 26px;
+            }
+           
+        }
+    }
+    .auto-debit {
+        background-color: #ffffff;
+        padding: 16px;
+        h2 {
+            margin: 0;
+        }
+        
+    }
+
 }

@@ -82,24 +82,16 @@
                     }
                         
                    .text-box {
-                    h2 {
-                            font-weight: 400;
-                            font-size: 14px;
-                            line-height: 22px;
+                        h3 { 
                             color: #333333;
                             margin: 0;
-                        }
-                    
-                        h3 {
-                            font-weight: 400;
-                            font-size: 12px;
-                            line-height: 18px;
+                            }
+                        
+                        h4 {
                             color: #999999;
                             margin: 0;
                         }
-                   }
-                   
-                    
+                    }   
                 }
             }
         }
@@ -115,14 +107,11 @@
             display: flex;
             gap: 16px;
             max-width: 440px;
-            // margin: 0 auto;
             padding: 0 15px;
-            // justify-content: center;
-                // align-items: center;
                 &::before {
-                        display: none;
-                        content: none;
-                    }
+                    display: none;
+                    content: none;
+                }
             .image {
                 flex-basis: 12.72727272727273%;
                 justify-content: left;
@@ -136,18 +125,12 @@
                 align-items: center;
                 width: 100%;
                 .question {
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 22px;
+                    
                     letter-spacing: 0.005em;
                     color: #1A1A1A;
                     margin-bottom: 8px;
                 }
                 .details {
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 18px;
-                    letter-spacing: 0.005em;
                     color: #0078CF;
                     margin-bottom: 20px;
                 }

@@ -1,13 +1,46 @@
 @use './mixins' as *;
-
+@use './variable' as *;
 html {
     font-size: 62.5%;
 }
+.nav-title,.title{
+    font-family: $ff;
+    @include set-font('h2');
+}
 
 .header-title {
+    font-family: "Telenor-bold";
     @include set-font('header-title');
 }
 
 .header-intro {
-    @include set-font('header-intro')
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('header-intro');
+}
+.text-box h3, .header-intro h3,h3,
+.question {
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font ('h3');
+}
+.text-box h4{
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font ('h4');
+}
+button {
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('button');
+}
+.details {
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('details');
+}
+.price {
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('price');
 }

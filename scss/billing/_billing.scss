@@ -109,7 +109,7 @@
             margin: 0;
             color: #1A1A1A;
         }
-        .previous-roaming-due,.current-roaming-usage,.total-roaming-used {
+        .previous-roaming-due,.current-roaming-usage {
             display: flex;
             justify-content: space-between;
             .text-box {
@@ -134,6 +134,33 @@
             }
            
         }
+        .total-roaming-used {
+            display: flex;
+            justify-content: space-between;
+            
+            .text-box {
+                h3 {
+                    margin: 0;
+                    color: #1A1A1A;
+                    margin-bottom: 4px;
+                    padding-top: 11px;
+        
+                }
+        
+                h4 {
+                    margin: 0;
+                    padding-bottom: 8px;
+                    
+                }
+            }
+            
+            .amount {
+                color: #1A1A1A;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
     }
     .auto-debit {
         background-color: #ffffff;
@@ -141,7 +168,7 @@
         h2 {
             margin: 0;
         }
-        
+
     }
 
 }

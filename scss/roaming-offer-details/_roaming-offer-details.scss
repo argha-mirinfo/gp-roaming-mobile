@@ -4,7 +4,7 @@
     background-color: #EFF2F5;
 
     .container {
-        margin-bottom: 100px;
+        // margin-bottom: 100px;
         .page-content{
 
             .section{
@@ -29,6 +29,11 @@
                             font-size: 16px;
                             margin-right: 8px;
                             align-items: flex-start;
+
+                            p{
+                                margin: 0;
+                                padding: 0;
+                            }
                         }
                         .title-2{
                             display: block;
@@ -36,6 +41,12 @@
                             font-weight: 700;
                             font-size: 16px;
                             text-align: center;
+
+                            
+                            p{
+                                margin: 0;
+                                padding: 0;
+                            }
                         }
                     }
 
@@ -49,6 +60,10 @@
                             font-size: 18px;
                             font-family: 'Telenor';
                             margin-bottom: 8px;
+                            p{
+                                margin: 0;
+                                padding: 0;
+                            }
                         }
                         .title-list{
                             font-family: 'telenor';
@@ -71,6 +86,10 @@
                             font-size: 12px;
                             line-height: 18px;
                             color: #676767;
+                            p{
+                                margin: 0;
+                                padding: 0;
+                            }
                         }
                         .price{
                             font-family: 'telenor';
@@ -78,6 +97,11 @@
                             font-size: 12px;
                             line-height: 18px;
                             color: #676767;
+
+                            p{
+                                margin: 0;
+                                padding: 0;
+                            }
                            
                         }
                     }
@@ -94,7 +118,12 @@
                     font-family: 'telenor';
                     font-size: 16px;
                     font-weight: 500;
-                    color:  #1A1A1A;;
+                    color:  #1A1A1A;
+
+                    p{
+                        margin: 0;
+                        padding: 0;
+                    }
                 }
                 .country-dropdown{
                     background-color: #F5F5F5;
@@ -103,9 +132,104 @@
                     justify-content: space-between;
                     padding: 12px 0px 12px 16px;
                     box-sizing: border-box;
+                    margin: 12px 0px 12px 0px;
+
+                    .country-name{
+                        font-family: 'telenor';
+                        font-weight: 400;
+                        font-size: 14px;
+
+                        p{
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+
+                    .dropdown-icon{
+                        padding-right: 16px;
+                    }
+                }
+                .operators-title{
+                    h2{
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+
+                
+                .operators-list{
+                    .container {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-bottom: 0%;
+                    
+                    .BSNL,.airtel,.BPL-Cellular,.Tata-Teleseervices {
+                            display: flex;
+                            align-items: center;
+                            .airtel-icon,.tata-icon,.BPL-icon,.BSNL-icon {
+                                margin-right: 12px;
+                            }
+                            .operator-name{
+                                font-family: 'telenor';
+                                font-weight: 400;
+                                font-size: 14px;
+                                color: #676767;
+                            }
+                        }
+                        .network {
+                            display: flex;
+                            font-family: 'telenor';
+                            font-weight: 400;
+                            font-size: 14px;
+                            color: #676767;   
+                        }
+                    }
+
+                   
+
                 }
 
 
+            }
+            .purchasing{
+                margin: 16px;
+                box-sizing: border-box;
+                text-align: center;
+                line-height: 18px;
+                font-family: 'telenor';
+                font-weight: 400;
+                font-size: 12px;
+
+                p{
+                    margin: 0;
+                    padding: 0%;
+                }
+            }
+            .confim-purchase-btn{
+                font-family: 'Telenor';
+                font-size: 16px;
+                font-weight: 500;
+                text-align: center;
+                background-color: #0078CF;
+                color: white;
+                border-radius: 2px;
+                padding: 10px 0px 10px 0px;
+                margin: 16px;
+                p{
+                    margin: 0;
+                }
+            }
+            .Features-Conditions{
+                font-family: 'Telenor';
+                font-weight: 500;
+                font-size: 12px;
+                text-align: center;
+                color: #0078CF;
+                margin: 16px 16px 100px 16px ;
+
+                // this bellow given margin is extra 
+                // margin-bottom: 100px;
             }
         }
 

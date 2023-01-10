@@ -1,0 +1,33 @@
+#features-condition{
+    max-width: 360px;
+    margin: auto;
+
+   .contain{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+        h1{
+            font-family: 'Telenor';
+            font-weight: 500;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+        .list-offers{
+            ul{
+                font-family: 'Telenor';
+                font-size: 12px;
+                font-weight: 400;
+                margin: 0;
+                padding: 16px;
+               
+                li{
+                    margin-bottom: 8px;
+                }
+            }
+        } 
+   }
+   .confim-purchase-btn{
+    margin: 16px 24px 24px 24px
+}
+}

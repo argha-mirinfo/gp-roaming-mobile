@@ -2,16 +2,11 @@
     display: flex;
     flex-direction: row;
     background-color: rgba(253, 190, 17, 0.1);
-    // justify-content: center;
     align-items: center;
-    // padding: 16px 0px 16px 16px;
     box-sizing: border-box;
-    // margin: 16px 16px 16px 16px;
-
+    margin-top: 16px;
+   
     .warning-text{
-        // padding: 16px;
-        // display: flex;
-        flex-direction: row;
         font-weight: 400;
         font-size: 14px;
         font-family: 'Telenor';
@@ -22,9 +17,11 @@
     }
 
     .warning-icon{
-        // display: flex;
-        flex-direction: row;
+        
         padding: 16px;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Telenor';
        
     }
 }

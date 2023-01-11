@@ -1,0 +1,72 @@
+#Success-n-activation-error{
+    max-width: 360px;
+    margin: auto;
+    background-color: #EFF2F5;
+
+    .container{
+        .section{
+            display: flex;
+            flex-direction: column;
+            padding: 0%;
+            margin: 14px  0px 0px 0px;
+            // margin bottom 100px its for separeted two modal 
+            margin-bottom: 100px;
+            .success-icon{
+                text-align: center;
+                margin: 17px 0px 17px 0px;
+            }
+            .text-content{
+                justify-content: center;
+                text-align: center;
+                margin:0px 16px 4px 16px;
+
+                p{
+                    margin: 0%;
+                    padding: 0%;
+                }
+            }
+            .text-content-muted{
+                font-family: 'Telenor';
+                width: 500;
+                font-size: 16px;
+                color: #676767;
+                text-align: center;
+                margin: 0px 16px 16px 16px;
+                p{
+                    margin: 0;
+                    padding: 0%
+                }
+
+            }
+            .model-2-btn{
+                .modal-2-btn-change{
+                    margin: 0 0 16px 0;
+                    .toolicon{
+                        margin-right: 22px;
+                    }
+                }
+                .modal-2-btn-go-back{
+                    color: white;
+                }
+            }
+        }
+    }
+    .container{
+        .section{
+            .text-content{
+                font-family: 'Telenor';
+                font-weight: 500;
+                font-size: 18px;
+                color: #1A1A1A;
+            }
+            .model-2-btn{
+                
+                .modal-2-btn-go-back{
+                    margin-top: 12px;
+                }
+            }
+        }
+    }
+
+
+}

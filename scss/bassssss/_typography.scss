@@ -9,7 +9,7 @@ html {
 }
 
 .header-title {
-    font-family: "Telenor-bold";
+    font-family: $ff;
     @include set-font('header-title');
 }
 

@@ -1,4 +1,4 @@
-@use './../abstract/variable' as *;
+
 #pay-bill{
     max-width: 360px;
     margin: auto;
@@ -11,7 +11,6 @@
         margin-bottom: 8px;
 
         .bill{
-            font-family: $ff;
             font-size: 18px;
             line-height: 26px;
             color: #1A1A1A;

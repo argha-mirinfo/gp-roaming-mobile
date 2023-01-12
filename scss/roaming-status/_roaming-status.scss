@@ -1,3 +1,4 @@
+@use './../abstract/variable' as *;
 #roaming-status {
     max-width: 360px;
     margin: auto;
@@ -9,7 +10,7 @@
             flex-direction: row;
             align-items: center;
             background-color:#19AAF8; 
-            margin-bottom: 14px;
+            // margin-bottom: 14px;
             padding: 16px;
     
             .arrow{
@@ -19,8 +20,8 @@
                 color:white;
                 font-weight: 500;
                 font-size: 18px;
+                font-family: $ff;
                 line-height: 26px;
-                font-family: 'telenor';
                 margin: 0;
             }
         }
@@ -60,7 +61,7 @@
                     justify-content: center;
                     align-items: center;
                     p{
-                        font-family: 'telenor';
+                        font-family: $ff;
                         font-weight: 500;
                         font-size: 18px;
                         line-height: 26px;
@@ -101,14 +102,14 @@
                         // margin-bottom: 16px;
     
                         .content-text-1{
-                            font-family: 'Telenor';
+                            font-family: $ff;
                             font-weight: 400;
                             font-size: 12px;
                             line-height: 18px;
                             color: #676767;
                         }
                         .content-text-2{
-                            font-family: 'Telenor';
+                            font-family: $ff;
                             font-weight: 700;
                             font-size: 16px;
                             line-height: 24px;
@@ -126,7 +127,7 @@
                     .action-btn-dectivate{
                         width: 160px;
                         height: 40px;
-                        font-family: 'Telenor';
+                        font-family: $ff;
                         font-size: 16px;
                         font-weight: 500;
                         line-height: 20px;
@@ -141,7 +142,7 @@
                         width: 160px;
                         height: 40px;
                         display: flex;
-                        font-family: 'Telenor';
+                        font-family: $ff;
                         font-size: 16px;
                         line-height: 20px;
                         align-items: center;
@@ -164,7 +165,7 @@
             flex-direction: row;
             align-items: center;
             background-color:#19AAF8; 
-            margin-bottom: 14px;
+            // margin-bottom: 14px;
             padding: 16px;
     
             .arrow{
@@ -175,7 +176,7 @@
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 26px;
-                font-family: 'telenor';
+                font-family: $ff;
                 margin: 0;
             }
         }
@@ -215,7 +216,7 @@
                     justify-content: center;
                     align-items: center;
                     p{
-                        font-family: 'telenor';
+                        font-family: $ff;
                         font-weight: 500;
                         font-size: 18px;
                         line-height: 26px;
@@ -257,14 +258,14 @@
                         // margin-bottom: 16px;
     
                         .text-1{
-                            font-family: 'Telenor';
+                            font-family: $ff;
                             font-weight: 400;
                             font-size: 14px;
                             line-height: 22px;
                             color: #1A1A1A;
                         }
                         .text-2{
-                            font-family: 'Telenor';
+                            font-family: $ff;
                             font-weight: 400;
                             font-size: 14px;
                             line-height: 22px;
@@ -283,7 +284,7 @@
                     .action-btn-find{
                         width: 100%;
                         height: 40px;
-                        font-family: 'Telenor';
+                        font-family: $ff;
                         font-size: 16px;
                         font-weight: 500;
                         line-height: 20px;
@@ -298,7 +299,7 @@
                         width: 100%;
                         height: 40px;
                         display: flex;
-                        font-family: 'Telenor';
+                        font-family: $ff;
                         font-size: 16px;
                         line-height: 20px;
                         align-items: center;
@@ -322,7 +323,7 @@
             flex-direction: row;
             align-items: center;
             background-color:#19AAF8; 
-            margin-bottom: 14px;
+            // margin-bottom: 14px;
             padding: 16px;
     
             .arrow{
@@ -333,7 +334,7 @@
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 26px;
-                font-family: 'telenor';
+                font-family: $ff;
                 margin: 0;
             }
         }
@@ -357,49 +358,34 @@
                 .illustration{
     
                     width: 120px;
-                    height: 120px;
-                   
+                    height: 120px;   
                 }
-                .roamoimg-active{
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    width: 328px;
-                    height: 100px;
-                    gap: 8px;
-                    margin: 0;
-                    display: block;
-                    justify-content: center;
-                    align-items: center;
+                .text-content{
+                    text-align: center;
                     p{
-                        font-family: 'telenor';
+                        margin: 0%;
+                        padding: 0%;
+                        font-family: $ff;
                         font-weight: 500;
                         font-size: 18px;
-                        line-height: 26px;
-                        padding: 16px;
-                        text-align: center; 
-                        color: black;
-                        margin: 0;  
                     }
                     .request-content{
-                        width: 264px;
-                        height: 66px;
-                        padding-left: 48px;
-                        padding-right: 48px;
-                        font-family: 'Telenor';
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 22px;
-                        color:#676767;
-                        text-align: center;
-                            
-                        
-                        
+                        p{
+                            margin: 8px 0 0 0 ;
+                            padding: 0%;
+                            font-family: $ff;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 22px;
+                            color: #676767;
+                        }
                     }
+
                 }
+               
             }
             .section-2{
-                width: 360px;
+                // width: 360px;
                 height: 398px;
                 background-color: white;
                 display: flex;
@@ -409,7 +395,7 @@
                 // margin-bottom: 20px;
     
                 .current-type{
-                    width: 328px;
+                    // width: 328px;
                     height: 70px;
                     display: flex;
                     flex-direction: none;
@@ -421,22 +407,24 @@
                         padding: 23px 16px;
                     }
                     .content{
-                        width: 265px;
+                        // width: 265px;
                         height: 46px;
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
+                        justify-content: center;
                         // margin-bottom: 16px;
     
-                        .content-text-1{
-                            font-family: 'Telenor';
+                        .text-1{
+                            font-family: $ff;
                             font-weight: 400;
                             font-size: 14px;
                             line-height: 22px;
                             color: #1A1A1A;
+                            
                         }
-                        .content-text-2{
-                            font-family: 'Telenor';
+                        .text-2{
+                            font-family: $ff;
                             font-weight: 400;
                             font-size: 14px;
                             line-height: 22px;
@@ -455,7 +443,7 @@
                     .action-btn-find{
                         width: 100%;
                         height: 40px;
-                        font-family: 'Telenor';
+                        font-family: $ff;
                         font-size: 16px;
                         font-weight: 500;
                         line-height: 20px;
@@ -470,7 +458,7 @@
                         width: 100%;
                         height: 40px;
                         display: flex;
-                        font-family: 'Telenor';
+                        font-family: $ff;
                         font-size: 16px;
                         line-height: 20px;
                         align-items: center;
@@ -487,6 +475,22 @@
        
     }
     
+    .condition-modal{
+        background-color: white;
+        .model-2-btn{
+            .modal-2-btn-change{
+                background-color: #0078cf;
+                color: white;
+
+            }
+            .modal-2-btn-go-back{
+                background-color: white;
+            }
+        }
+    }
+    
+    
+
 
 }
 

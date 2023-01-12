@@ -1,3 +1,4 @@
+@use './../abstract/variable' as *;
 .section{
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@
             margin-bottom: 8px;
 
             .title-1{
-                font-family: 'Telenor';
+                font-family: $ff;
                 font-weight: 700;
                 font-size: 16px;
                 margin-right: 8px;
@@ -28,7 +29,7 @@
             }
             .title-2{
                 display: block;
-                font-family: 'Telenor';
+                font-family: $ff;
                 font-weight: 700;
                 font-size: 16px;
                 text-align: center;
@@ -49,7 +50,7 @@
             .title{
                 font-weight: 500;
                 font-size: 18px;
-                font-family: 'Telenor';
+                font-family: $ff;
                 margin-bottom: 8px;
                 p{
                     margin: 0;
@@ -57,7 +58,7 @@
                 }
             }
             .title-list{
-                font-family: 'telenor';
+                font-family: $ff;
                 font-size: 14px;
                 font-weight: 400;
                ul{
@@ -72,7 +73,7 @@
             justify-content: space-between;
 
             .validity{
-                font-family: 'telenor';
+                font-family: $ff;
                 font-weight: 400;
                 font-size: 12px;
                 line-height: 18px;
@@ -83,7 +84,7 @@
                 }
             }
             .price{
-                font-family: 'telenor';
+                font-family: $ff;
                 font-weight: 400;
                 font-size: 12px;
                 line-height: 18px;

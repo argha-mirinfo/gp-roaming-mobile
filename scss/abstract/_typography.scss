@@ -1,0 +1,8 @@
+@use './variable' as *;
+html {
+    font-size: 62.5%;
+}
+
+.navbar p {
+    font-family: $ff;
+}

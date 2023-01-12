@@ -1,8 +1,10 @@
 .roaming-progress {
     background-color: #ffffff;
     margin-bottom: 1px;
+    display: flex;
     .container {
         max-width: 360px;
+        
         padding: 0 16px 20px 16px;
 
         .price-info {
@@ -31,12 +33,12 @@
         }
 
         .price-details {
-
+            
             .progress {
                 margin-bottom: 8px;
                 position: relative;
                 height: 12px;
-                width: 408px;
+                width: 325px;
                 border: 8px;
                 background: #E9E9E9;
             }

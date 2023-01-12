@@ -10,7 +10,8 @@
             background-color: #ffffff;
             margin: 1px 0 8px 0;
             .container {
-                max-width: 440px;
+                display: flex;
+                max-width: 360px;
                 padding:13px 16px;
                 .roaming-billing {
                     display: flex;
@@ -88,7 +89,7 @@
     
     .offer-available {
         background-color: #EAFFFE;
-        display: block;
+        display: flex;
         .container {
             box-sizing: border-box;
             padding: 14px 16px 12px 4px;

@@ -18,7 +18,7 @@ html {
     font-style: $fs;
     @include set-font('header-intro');
 }
-.text-box h3, .header-intro h3,h3,
+.text-box h3, .header-intro h3,h3,.answer,
 .question {
     font-family: $ff;
     font-style: $fs;
@@ -43,4 +43,14 @@ button {
     font-family: $ff;
     font-style: $fs;
     @include set-font('price');
+}
+section .container .question {
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('question');
+}
+.list-title {
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('list-style');
 }

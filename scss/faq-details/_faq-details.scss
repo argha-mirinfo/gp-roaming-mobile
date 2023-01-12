@@ -1,0 +1,23 @@
+#faq-details {
+    max-width: 360px;
+    display: block;
+    margin: 0 auto;
+    background: #EFF2F5;
+    section{
+        display: flex;
+        .container {
+            padding: 16px;
+            background-color: #ffffff;
+            .question {
+             
+                letter-spacing: 0.0015em;
+                color: #1A1A1A;
+            }
+            .answer {
+                
+                letter-spacing: 0.005em;
+                color: #1A1A1A;
+            }
+        }
+    }
+}

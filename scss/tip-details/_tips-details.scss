@@ -1,0 +1,27 @@
+#tip-details {
+    max-width: 360px;
+    display: block;
+    margin: 0 auto;
+    background: #EFF2F5;
+    section {
+        display: flex;
+        background-color: #ffffff;
+        padding: 16px;
+        .container{
+            padding: 0;
+                
+                ul{
+                    padding: 0 16px;
+                    margin: 0;r
+                    li {
+                        margin-bottom: 4px;
+                       h3 {
+                        margin: 0;
+                       }
+
+                    }
+                }
+            }
+        }
+}
+    

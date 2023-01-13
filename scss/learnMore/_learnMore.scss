@@ -1,0 +1,59 @@
+#learn-more {
+    max-width: 440px;
+    display: block;
+    margin: 0 auto;
+    background: #EFF2F5;
+    .check-available {
+        display: flex;
+        background-color: #ffffff;
+        padding: 16px 17px;
+        margin: 21px 0 8px;
+        justify-content: space-between;
+        .container {
+            display: flex;
+
+            .info-icon {
+                margin-right: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+            }
+        }
+        
+    }
+    .faq {
+        display: flex;
+        background-color: #ffffff;
+        padding: 16px 17px;
+        margin: 21px 0 8px;
+        justify-content: space-between;
+        .container {
+            display: flex;
+            .info-icon {
+                margin-right: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .text-box {
+                .title {
+                    margin-bottom: 4px;
+                }
+                .info {
+                    margin: 0;
+                }
+            }
+        }
+        .angle-arrow-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

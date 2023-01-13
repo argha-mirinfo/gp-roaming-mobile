@@ -1,0 +1,25 @@
+ .footer {
+    background-color: #ffffff;
+
+    .footer-container {
+        max-width: 440px;
+        padding: 13px 16px;
+
+        .inner-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .information {
+                display: flex;
+
+                .text {
+                    letter-spacing: 0.005em;
+                    color: #1A1A1A;
+                    margin: 0 12px;
+                }
+            }
+
+        }
+    }
+}

@@ -1,7 +1,7 @@
 const gulp = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
 const sourcemaps = require("gulp-sourcemaps");
-const concat = require('gulp-concat');
+const concat = require("gulp-concat");
 
 function style() {
   return gulp

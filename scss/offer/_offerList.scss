@@ -1,0 +1,171 @@
+#offer-list{
+    max-width: 360px;
+    display: block;
+    margin: 0 auto;
+    background: #EFF2F5;
+    .travel-pack {
+        display: flex;
+        background-color: #ffffff;
+        padding: 16px 0;
+        margin-bottom: 1px;
+        .container {
+            .pack {
+                display: flex;
+                justify-content: space-between;
+                .text-box{
+                    .offer-staging {
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 18px;
+                            letter-spacing: 0.005em;
+                            color: #676767;
+                            margin: 0;
+                        }
+                    
+                        .offer-title {
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 28px;
+                            letter-spacing: 0.0015em;
+                            color: #1A1A1A;
+                            margin: 0;
+                        }
+                }
+            }
+            .timing {
+                display: flex;
+                justify-content: space-between;
+                .timing-icon {
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 10px;
+                }
+            }
+            
+        }
+    }
+     .select-country {
+        display: flex;
+        background-color: #ffffff;
+        .container {
+            select {
+                padding: 13px 16px;
+                width: 100%;
+                background: #F5F5F5;
+                border-radius: 3px;
+                border-color: transparent;
+                margin: 16px 0 12px;
+                option {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #676767;
+                }
+            }
+           .popular-destination {
+            .title {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: #676767;
+                margin: 0 0 8px;
+            }
+            .country-name-section {
+                margin-bottom: 9px;
+                .country-name {
+                    display: inline-block;
+                    border: 0.75px solid #D6D6D6;
+                    border-radius: 50px;
+                    padding: 5px 16px;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #676767;
+                    &:not( :last-child) {
+                        margin-right: 8px;
+                    }
+
+                }
+            }
+           }
+        }
+    }
+    .offer-section {
+        background: #FFFFFF;
+        display: flex;
+        .container {
+            .title {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 26px;
+                letter-spacing: 0.0015em;
+            }
+            .card {
+                padding: 16px;
+                background: #FFFFFF;
+                box-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.15);
+                border-radius: 4px;
+                display: flex;
+                gap: 4px;
+                justify-content: flex-start;
+                margin: 0 auto 16px;
+                .roaming-icon {
+                    flex-basis: 7.317073170731707%;
+                    text-align: left;
+                }
+                .offer-title {
+                    flex-basis:80.48780487804878%;
+                    .combo-title {
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #1A1A1A;
+                        margin: 0 0 8px 0;
+                    }
+                    .combo-intro {
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 22px;
+                        display: flex;
+                        align-items: center;
+                        color: #1A1A1A;
+                    }
+                    .min-offer {
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 22px;
+                        display: flex;
+                        align-items: center;
+                        color: #1A1A1A;
+                    }
+                    .sms-offer, .sms-offer {
+                        font-weight: 700;
+                            font-size: 14px;
+                            line-height: 22px;
+                            display: flex;
+                            align-items: center;
+                            color: #1A1A1A;
+                    }
+                    .offer-date-cost {
+                        display: flex;
+                        justify-content: space-between;
+                        .time {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 22px;
+                            letter-spacing: 0.005em;
+                            color: #1A1A1A;
+                        }
+                        .cost {
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 22px;
+                            color: #1A1A1A;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

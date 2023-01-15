@@ -1,0 +1,56 @@
+@use './variable' as *;
+
+@mixin set-font($type) {
+    @if $type == 'h2' {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    @if $type == 'header-title' {
+        font-weight: 500;
+        font-size: $fs-20;
+        line-height: 1.4;
+    }
+    
+    @if $type =='h3' {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        // margin: 0;
+    }
+    @if $type =='h4' {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    @if $type == 'button' {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.005em;
+    }
+    
+    @if $type =='details' {
+        font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 0.005em;
+    }
+    @if $type =='price' {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 34px;
+    }
+    @if $type =='question' {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    @if $type == 'list-style' {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}

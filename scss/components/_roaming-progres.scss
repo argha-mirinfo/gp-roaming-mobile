@@ -1,0 +1,80 @@
+.roaming-progress {
+    background-color: #ffffff;
+    margin-bottom: 1px;
+    display: flex;
+    .container {
+        max-width: 360px;
+        
+        padding: 0 16px 20px 16px;
+
+        .price-info {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: block;
+            margin: 16px 0;
+
+            .price {
+                text-align: center;
+                letter-spacing: 0.0015em;
+                color: #1A1A1A;
+                margin-bottom: 4px;
+            }
+
+            .details {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.005em;
+                color: #1A1A1A;
+                margin-bottom: 0;
+            }
+        }
+
+        .price-details {
+            
+            .progress {
+                margin-bottom: 8px;
+                position: relative;
+                height: 12px;
+                width: 325px;
+                border: 8px;
+                background: #E9E9E9;
+            }
+
+            .progress-bar-color {
+                background-color: #75CF7D;
+                border-radius: 8px;
+                position: absolute;
+                width: 70%;
+                height: 12px;
+            }
+
+            .price-condition {
+                display: flex;
+                justify-content: space-between;
+
+                .used-price,
+                .limit-price {
+
+                    p {
+                        font-Weight: 400;
+                        font-Size: 14px;
+                        line-height: 22px;
+                        color: #676767;
+                        margin: 0;
+
+                        span {
+                            font-Weight: 500;
+                            font-Size: 14px;
+                            line-height: 22px;
+                            color: #1A1A1A;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

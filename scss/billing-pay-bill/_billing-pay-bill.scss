@@ -1,0 +1,176 @@
+
+#pay-bill{
+    max-width: 360px;
+    margin: auto;
+    background-color: #EFF2F5;
+
+    .bill-payments{
+        background-color: white;
+        margin-top: 14px;
+        padding-bottom: 16px;
+        margin-bottom: 8px;
+
+        .bill{
+            font-size: 18px;
+            line-height: 26px;
+            color: #1A1A1A;
+            margin: 16px 0px 16px 16px;
+            margin-top: 16px;
+            padding-top: 16px;
+
+        }
+        .due{
+            
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            margin:16px 16px 0px 16px;
+            .previous-due{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-bottom: 10px;
+
+                .previous-due-title{
+                    font-family: $ff;
+                    font-weight: 400;
+                    font-size: 14px;
+                    p{
+                        margin: 0%;
+                        padding: 0%;
+                    }
+                }
+                .previous-due-amount{
+                    font-family: $ff;
+                    font-weight: 500;
+                    font-size: 18px;
+
+                    p{
+                        margin: 0%;
+                        padding: 0%;
+                    }
+                }
+                div{
+                    hr{
+                        border: 1px solid #F5F5F5;
+                    }
+                }
+               
+            }
+            .due-date{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-top: 10px;
+
+                .due-date-title{
+                    font-family: $ff;
+                    font-weight: 400;
+                    font-size: 14px;
+                    
+                    p{
+                        margin: 0%;
+                    }
+                }
+                .date{
+                    font-family: $ff;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 26px;
+                    p{
+                        margin: 0%;
+                    }
+                }
+            }
+        }
+    }
+    .bill-amount{
+        background-color: white;
+        padding: 0px 16px 16px 16px;
+        // padding-bottom: 0%;
+
+    }
+    .bill-amount{
+        .title{
+            font-family: $ff;
+            font-weight: 500;
+            font-size: 18px;
+            margin: 0;
+            padding: 16px 0 0 0;
+            p{
+                margin: 0%;
+            }
+        }
+        .radio{
+            display: flex;
+            flex-direction: column;
+            padding: 16px 0px 16px 0px ;
+
+            
+            .radio-1{
+                margin-bottom: 16px;
+                .radio-1-text{
+                    font-family: $ff;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+            .radio-2{
+                .radio-2-text{
+                    font-family: $ff;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .amount{
+            font-family: $ff;
+            font-weight: 400;
+            font-size: 14px;
+            // margin-top: 0 0 2px 0;
+            margin-bottom: 2px;
+            margin-top: 0%;
+
+            
+        }
+        .amount-text{
+            display: flex;
+            justify-content: space-between;
+            background-color: #F5F5F5;
+            padding: 0 16px 0 16px ;
+            margin-bottom: 16px;
+            text-align: center;
+
+            .amount-text-1{
+                font-family: $ff;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #676767;
+            }
+            .amount-text-2{
+                font-family: $ff;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                color: #676767;
+            }
+        }
+        .Continue-to-Payment-btn{
+            font-family: $ff;
+            font-size: 16px;
+
+            font-weight: 500;
+            text-align: center;
+            background-color: #0078CF;
+            color: white;
+            border-radius: 2px;
+            padding: 10px 0px 10px 0px;
+            margin-bottom: 16px;
+            
+            p{
+                margin: 0;
+            }
+        }
+    }
+}

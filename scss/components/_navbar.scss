@@ -1,0 +1,16 @@
+@use '../abstract' as *;
+.navbar {
+    background-color: $telenor-link;
+    margin-bottom: 14px;
+
+    .nav-container {
+        padding: 16px 16px;
+        display: flex;
+
+        .nav-title {
+            color: #FFFFFF;
+            margin: 0;
+            margin-left: 32px;
+        }
+    }
+}

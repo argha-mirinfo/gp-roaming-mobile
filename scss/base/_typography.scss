@@ -26,12 +26,12 @@ html {
     font-style: $fs;
     @include set-font ('h3');
 }
-.text-box h4,.content-text-1,.validity p,.confim-purchase-btn p,.purchasing p{
+.text-box h4,.content-text-1,.validity p,.confim-purchase-btn p,.purchasing p,.list-offers ul{
     font-family: $ff;
     font-style: $fs;
     @include set-font ('h4');
 }
-button,.action-btn-dectivate,.action-btn-change,.action-btn-find,.action-btn-activate,.modal-btn-yes p,.modal-btn-not-now p{
+button,.action-btn-dectivate,.action-btn-change,.action-btn-find,.action-btn-activate,.modal-btn-yes p,.modal-btn-not-now p,.feature-n-condition-btn p{
     font-family: $ff;
     font-style: $fs;
     @include set-font('button');
@@ -51,7 +51,7 @@ section .container .question,.content-text-2 h3,.content-title p{
     font-style: $fs;
     @include set-font('question');
 }
-.list-title,.title p {
+.list-title,.title p ,.feature-n-condition h2{
     font-family: $ff;
     font-style: $fs;
     @include set-font('list-style');

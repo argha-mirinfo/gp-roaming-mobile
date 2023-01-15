@@ -6,15 +6,10 @@
     background-color: white;
 
     .title{
-       
-        font-size: 16px;
-        font-weight: 500;
         color:  #1A1A1A;
-
         p{
             margin: 0;
-            padding: 0;
-            
+            padding: 0;   
         }
     }
     .country-dropdown{
@@ -27,35 +22,29 @@
         margin: 12px 0px 12px 0px;
 
         .country-name{
-        
-            font-weight: 400;
-            font-size: 14px;
-
-            p{
+            h3{
                 margin: 0;
                 padding: 0;
             }
         }
-
         .dropdown-icon{
             padding-right: 16px;
         }
     }
     .operators-title{
+        margin-bottom: 12px;
         h2{
             margin: 0;
             padding: 0;
          
         }
     }
-
-    
     .operators-list{
         .container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-bottom: 0%;
+        margin-bottom: 12px;
         
         .BSNL,.airtel,.BPL-Cellular,.Tata-Teleseervices {
                 display: flex;
@@ -64,24 +53,18 @@
                     margin-right: 12px;
                 }
                 .operator-name{
-                
-                    font-weight: 400;
-                    font-size: 14px;
                     color: #676767;
+                    h2{
+                        margin: 0%;
+                    }
                 }
             }
             .network {
-                display: flex;
-            
-                font-weight: 400;
-                font-size: 14px;
-                color: #676767;   
+                color: #676767; 
+                h2{
+                    margin: 0%;
+                }  
             }
         }
-
-       
-
     }
-
-
 }

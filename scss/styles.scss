@@ -1,11 +1,12 @@
 @use './component';
 @use "./roaming-status";
-// @use './roaming-offer-details';
-// @use './roaming-offer-details-2';
+@use './roaming-offer-details';
+@use './roaming-offer-details-2';
 // @use './features-n-conditions-modal';
 // @use './success-n-activation-error';
 // @use './billing-pay-bill';
 // @use './abstract/typography';
+// @use './modal-2';
 @use 'region';
 @use 'offer';
 @use 'base';

@@ -5,7 +5,7 @@ html {
 }
                      
 .nav-title,.title,.navbar p,.text-content p ,
-.text-content h2,.modal-text p{
+.text-content h2,.modal-text p,.title p{
     font-family: $ff;
     @include set-font('h2');
 }
@@ -21,12 +21,12 @@ html {
     @include set-font('header-intro');
 }
 .text-box h3, .header-intro h3,h3,.answer,
-.question,.content-text {
+.question,.content-text,.title-list ul,.country-name h3,.operators-title h2,.operator-name h2,.network h2{
     font-family: $ff;
     font-style: $fs;
     @include set-font ('h3');
 }
-.text-box h4,.content-text-1{
+.text-box h4,.content-text-1,.validity p,.confim-purchase-btn p,.purchasing p{
     font-family: $ff;
     font-style: $fs;
     @include set-font ('h4');
@@ -36,7 +36,7 @@ button,.action-btn-dectivate,.action-btn-change,.action-btn-find,.action-btn-act
     font-style: $fs;
     @include set-font('button');
 }
-.details {
+.details,.Features-Conditions h2,.warning-text p {
     font-family: $ff;
     font-style: $fs;
     @include set-font('details');
@@ -46,12 +46,12 @@ button,.action-btn-dectivate,.action-btn-change,.action-btn-find,.action-btn-act
     font-style: $fs;
     @include set-font('price');
 }
-section .container .question,.content-text-2 h3{
+section .container .question,.content-text-2 h3,.content-title p{
     font-family: $ff;
     font-style: $fs;
     @include set-font('question');
 }
-.list-title {
+.list-title,.title p {
     font-family: $ff;
     font-style: $fs;
     @include set-font('list-style');

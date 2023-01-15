@@ -5,7 +5,7 @@ html {
 }
                      
 .nav-title,.title,.navbar p,.text-content p ,
-.text-content h2{
+.text-content h2,.modal-text p{
     font-family: $ff;
     @include set-font('h2');
 }
@@ -21,7 +21,7 @@ html {
     @include set-font('header-intro');
 }
 .text-box h3, .header-intro h3,h3,.answer,
-.question {
+.question,.content-text {
     font-family: $ff;
     font-style: $fs;
     @include set-font ('h3');
@@ -31,7 +31,7 @@ html {
     font-style: $fs;
     @include set-font ('h4');
 }
-button,.action-btn-dectivate,.action-btn-change {
+button,.action-btn-dectivate,.action-btn-change,.action-btn-find,.action-btn-activate,.modal-btn-yes p,.modal-btn-not-now p{
     font-family: $ff;
     font-style: $fs;
     @include set-font('button');

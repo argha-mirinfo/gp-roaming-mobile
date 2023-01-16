@@ -5,7 +5,7 @@ html {
 }
                      
 .nav-title,.title,.navbar p,.text-content p ,
-.text-content h2,.modal-text p,.title p,.warning-content p{
+.text-content h2,.modal-text p,.title p,.warning-content p,.bill h2,.date h2,.title-amount h2{
     font-family: $ff;
     @include set-font('h2');
 }
@@ -21,7 +21,7 @@ html {
     @include set-font('header-intro');
 }
 .text-box h3, .header-intro h3,h3,.answer,
-.question,.content-text,.title-list ul,.country-name h3,.operators-title h2,.operator-name h2,.network h2,.warning-content-muted p{
+.question,.content-text,.title-list ul,.country-name h3,.operators-title h2,.operator-name h2,.network h2,.warning-content-muted p,.previous-due-title h2,.previous-due-amount p,.due-date-title h2,.amount h2,.amount-text-2{
     font-family: $ff;
     font-style: $fs;
     @include set-font ('h3');
@@ -31,12 +31,12 @@ html {
     font-style: $fs;
     @include set-font ('h4');
 }
-button,.action-btn-dectivate,.action-btn-change,.action-btn-find,.action-btn-activate,.modal-btn-yes p,.modal-btn-not-now p,.feature-n-condition-btn p,.succes-icon-btn p{
+button,.action-btn-dectivate,.action-btn-change,.action-btn-find,.action-btn-activate,.modal-btn-yes p,.modal-btn-not-now p,.feature-n-condition-btn p,.succes-icon-btn p,.Continue-to-Payment-btn p{
     font-family: $ff;
     font-style: $fs;
     @include set-font('button');
 }
-.details,.Features-Conditions h2,.warning-text p {
+.details,.feature-condition h2,.warning-text p {
     font-family: $ff;
     font-style: $fs;
     @include set-font('details');
@@ -51,7 +51,7 @@ section .container .question,.content-text-2 h3,.content-title p{
     font-style: $fs;
     @include set-font('question');
 }
-.list-title,.title p ,.feature-n-condition h2,.success-content p,.success-content-muted p{
+.list-title,.title p ,.feature-n-condition h2,.success-content p,.success-content-muted p,.radio-1-text,.radio-2-text,.amount-text-1{
     font-family: $ff;
     font-style: $fs;
     @include set-font('list-style');

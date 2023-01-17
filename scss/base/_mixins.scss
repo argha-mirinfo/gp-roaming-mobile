@@ -51,5 +51,15 @@
         font-size: 16px;
         line-height: 24px;
     }
+    @if $type == 'balance' {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    @if $type == 'balance-tk' {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+    }
 
 }

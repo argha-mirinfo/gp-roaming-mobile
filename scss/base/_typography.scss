@@ -21,7 +21,7 @@ html {
     @include set-font('header-intro');
 }
 .text-box h3, .header-intro h3,h3,.answer,
-.question,.content-text,.title-list ul,.country-name h3,.operators-title h2,.operator-name h2,.network h2,.warning-content-muted p,.previous-due-title h2,.previous-due-amount p,.due-date-title h2,.amount h2,.amount-text-2{
+.question,.content-text,.title-list ul,.country-name h3,.operators-title h2,.operator-name h2,.network h2,.warning-content-muted p,.previous-due-title h2,.previous-due-amount p,.due-date-title h2,.amount h2,.amount-text-2,.balance-usd p,.amount-text-11 p{
     font-family: $ff;
     font-style: $fs;
     @include set-font ('h3');
@@ -31,7 +31,7 @@ html {
     font-style: $fs;
     @include set-font ('h4');
 }
-button,.action-btn-dectivate,.action-btn-change,.action-btn-find,.action-btn-activate,.modal-btn-yes p,.modal-btn-not-now p,.feature-n-condition-btn p,.succes-icon-btn p,.Continue-to-Payment-btn p{
+button,.action-btn-dectivate,.action-btn-change,.action-btn-find,.action-btn-activate,.modal-btn-yes p,.modal-btn-not-now p,.feature-n-condition-btn p,.succes-icon-btn p,.Continue-to-Payment-btn p,.go-home-btn p{
     font-family: $ff;
     font-style: $fs;
     @include set-font('button');
@@ -55,4 +55,14 @@ section .container .question,.content-text-2 h3,.content-title p{
     font-family: $ff;
     font-style: $fs;
     @include set-font('list-style');
+}
+.balance-title{
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('balance');
+}
+.balance-tk{
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('balance-tk');
 }

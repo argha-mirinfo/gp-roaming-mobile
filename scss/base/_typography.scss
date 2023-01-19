@@ -51,12 +51,12 @@ section .container .question,.content-text-2 h3,.content-title p{
     font-style: $fs;
     @include set-font('question');
 }
-.list-title,.title p ,.feature-n-condition h2,.success-content p,.success-content-muted p,.radio-1-text,.radio-2-text,.amount-text-1{
+.list-title,.title p ,.feature-n-condition h2,.success-content p,.success-content-muted p,.radio-1-text,.radio-2-text,.amount-text-1,input,.destination-country h3{
     font-family: $ff;
     font-style: $fs;
     @include set-font('list-style');
 }
-.balance-title,.travel-title h2,.service-title h2{
+.balance-title,.travel-title h2,.service-title h2,.destination-title h2{
     font-family: $ff;
     font-style: $fs;
     @include set-font('balance');

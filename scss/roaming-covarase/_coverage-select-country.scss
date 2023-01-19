@@ -1,0 +1,50 @@
+#select-coutry{
+    width: 360px;
+    margin: 0 auto;
+
+    background-color: #EFF2F5;
+    .container{
+        .navbar{
+            input {
+                border: 1px solid white;
+                width: 100%;  
+                color: #B3B3B3; 
+                border-radius: 2px; 
+                padding: 6px 0px 2px 12px;
+            }
+            input:focus{
+                outline: none;
+            }
+        }
+        .destination{
+            background-color: white;
+            .destination-title{
+                padding: 16px ;
+                h2{
+                    margin: 0%;
+                }
+            }
+            .destination-country{
+                padding: 0px 16px 0px 16px;
+                h3{
+                    margin: 0%;
+                }
+            //     a, a:hover, a:focus, a:active {
+            //         text-decoration: none;
+            //         color: inherit;
+            //    }
+            }
+            .Hr{
+                padding: 0 16px 0 16px;
+                margin: 12px 0 12px 0;
+                hr{
+                    border: 1px solid #F5F5F5;
+                     margin: 0%;
+                }
+    
+            }
+            
+        }
+
+    }
+}

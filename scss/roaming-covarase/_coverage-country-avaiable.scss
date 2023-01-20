@@ -1,0 +1,109 @@
+#avaiable-country{
+    width: 360px;
+    margin: 0 auto;
+    background-color: #EFF2F5;
+
+    .container{
+        .travel-section{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            padding: 16px 16px 20px 16px;
+            // margin-bottom: 8px;
+            margin: 14px 0 8px 0px;
+            .travel-title{
+                h2{
+                    margin: 0%;
+                }
+            }
+            .destination-dropdown{
+                background-color: #F5F5F5;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 13px 0px 13px 16px;
+                box-sizing: border-box;
+                margin: 16px 0px 12px 0px;
+            
+                .destination-names{
+                    h3{
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+                .dropdown-icon{
+                    padding-right: 16px;
+                }
+            }
+            
+        }
+        .country-coverage-secetion{
+            background-color: white;
+            padding: 20px 18px 20px 16px;
+            .country-coverage{
+               
+                display: flex;
+                // flex-direction: row;
+                // justify-content: space-between;
+                .country{
+                   display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .country-coverage-title{
+                       margin-bottom: 4px;
+                        h2{
+                            margin: 0%;
+                        }
+                    }
+                    .country-coverage-text{
+                        margin-bottom: 16px;
+                        p{
+                            margin: 0%;
+                            color: #676767;
+                        }
+                       
+                    }
+                    
+                }
+                .country-coverage-icon{
+                    padding-left: 21px;
+                }
+    
+                .btn-group{
+                    display: flex;
+                    flex-direction: row;
+
+                   
+                }
+            }
+            .btn{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .modal-btn-yes{
+                    background-color: #0078cf;
+                    color: white;
+                    text-align: center;
+                    border: 1px solid #0078CF;
+                    border-radius: 2px;
+                    p{
+                        margin: 0%;
+                        padding: 10px 32px 10px 32px;
+                    }
+                }
+                .modal-btn-not-now{
+                    background-color: white;
+                    text-align: center;
+                    border: 1px solid #676767;
+                    border-radius: 2px;
+                    p{
+                        margin: 0%;
+                        padding: 10px 40px 10px 40px;
+                    }
+                }
+              }
+            
+        }
+      
+    }
+}

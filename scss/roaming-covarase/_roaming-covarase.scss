@@ -1,0 +1,134 @@
+#coverase{
+    width: 360px;
+    margin: 0 auto;
+    background-color: #EFF2F5;
+
+    .container{
+        // .navbar{
+        //     background-color: #72D9F7;
+        // }
+        .travel-section{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            padding: 16px 16px 20px 16px;
+            // margin-bottom: 8px;
+            margin: 14px 0 8px 0px;
+
+            .travel-title{
+                h2{
+                    margin: 0%;
+                }
+            }
+
+            .destination-dropdown{
+                background-color: #F5F5F5;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 13px 0px 13px 16px;
+                box-sizing: border-box;
+                margin: 16px 0px 12px 0px;
+            
+                .destination-name{
+                    color: #676767;
+                    h3{
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+                .dropdown-icon{
+                    padding-right: 16px;
+                }
+            }
+            .popular-destinations{
+                .popular{
+                    color: #676767;
+                    h2{
+                        margin: 0;
+                    }
+                }
+                .destinations-countries-list{
+                    display: flex;
+                    flex-direction: column;
+
+                    .destinations-countries{
+                        display: flex;
+                        flex-direction: row;
+                        text-align: center;
+                        p{
+                           margin: 8px 8px 8px 0px;
+                            border: 0.75px solid #D6D6D6;
+                            border-radius: 50px;
+                            text-align: center;
+                            // padding: 5px 16px 5px 16px ;
+                            justify-content: center;
+                            color: #676767;
+    
+                        }
+                        .sauid,.india,.malaysia,.usa{
+                            p{
+                                padding: 5px 16px 5px 16px ; 
+                            }
+                        }
+                        .usa{
+                            p{
+                                margin-right: 0%;
+                            }
+                        }
+                    }
+                    .destinations-countries-1{
+                        display: flex;
+                        flex-direction: row;
+                        text-align: center;
+                        p{
+                           margin: 0px 8px 0px 0px;
+                            border: 0.75px solid #D6D6D6;
+                            border-radius: 50px;
+                            text-align: center;
+                            // padding: 5px 16px 5px 16px ;
+                            justify-content: center;
+                            color: #676767;
+    
+                        }
+                        .sauid,.india,.malaysia,.usa{
+                            p{
+                                padding: 5px 16px 5px 16px ; 
+                            }
+                        }
+                        .usa{
+                            p{
+                                margin-right: 0%;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+        .service{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            padding: 16px 16px 20px 16px;
+
+            .service-title{
+                h2{
+                    margin: 0%;
+                }
+            }
+            .service-list{
+                ul{
+                    margin:8px 16px 0px 16px;
+                    padding: 0%;
+                    color: #676767;
+
+                    li{
+                        margin-bottom: 4px;
+                    }
+                }
+            }
+
+        }
+    }
+}

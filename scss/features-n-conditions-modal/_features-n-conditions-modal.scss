@@ -1,98 +1,31 @@
-#features-condition {
-  max-width: 360px;
+#features-condition{
+  width: 360px;
   margin: 0 auto;
-
+  background-color: white;
   .contain {
     display: flex;
     flex-direction: column;
-    padding: 24px 16px;
-    h1 {
-      font-family: "Telenor";
-      font-weight: 500;
-      font-size: 16px;
-      margin: 0;
-      padding: 0;
-      margin-bottom: 16px;
-    }
+    // padding: 24px 16px;
     .list-offers {
       ul {
-        font-family: "Telenor";
-        font-size: 12px;
-        font-weight: 400;
         margin: 0;
         padding: 0 16px;
-
-        li {
-          margin-bottom: 8px;
-        }
+      li{
+        margin-bottom: 8px;
+      }
       }
     }
   }
-  .confim-purchase-btn {
-    margin: 16px 24px 24px 24px;
-  }
-    .modal-2 {
-        display: flex;
-        flex-direction: column;
-        // padding: 16px ;
-        box-sizing: border-box;
-        margin: 16px;
-
-      .modal-2-icon { 
-        margin: 0 auto;
-      }
-      .modal-2-text {
-        // display: flex;
-        font-family: "Telenor";
-        font-weight: 500;
-        font-size: 16px;
-        text-align: center;
-        justify-content: center;
-        // margin: 16px;
-        // padding: 16px;
-        // margin: 0 auto;
-      }
-   
+  .feature-n-condition-btn{
+    text-align: center;
+    background-color: #0078CF;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 0px 10px 0px;
+    margin: 16px;
+    p{
+        margin: 0;
     }
-    .model-2-btn{
-        margin: 16px 24px 24px 24px;
-        .modal-2-btn-change {
-            width: 100%;
-            height: 40px;
-            font-family: "Telenor";
-            font-size: 16px;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid #676767;
-            background-color: #0078cf;
-            color: white;
-            border-radius: 2px;
-            margin-right: 8px;
-            p{
-                margin: 0;
-                padding: 0;
-            }
-          }
-          .modal-2-btn-go-back {
-            
-            height: 40px;
-            display: flex;
-            font-family: "Telenor";
-            font-size: 16px;
-            align-items: center;
-            justify-content: center;
-            
-            border: 1px solid #676767;
-            border-radius: 2px;
-            margin-top: 16px;
-            // color: white;
-            p{
-                margin: 0;
-                padding: 0;
-            }
-          }
-    }
-  }
+}
 
+}

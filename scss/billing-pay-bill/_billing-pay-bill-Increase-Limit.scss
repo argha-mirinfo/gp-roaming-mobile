@@ -1,0 +1,58 @@
+#increase-limit {
+  max-width: 360px;
+  margin: auto;
+  background-color: #eff2f5;
+
+  .container {
+    margin-bottom: 50px;
+    .current-roaming {
+      background-color: white;
+      margin-top: 14px;
+      padding: 16px 16px 20px 16px;
+      margin: 16px 0 8px 0;
+      text-align: center;
+      .Roaming-Balance {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        h2 {
+          margin: 0%;
+        }
+        .balance-tk {
+          margin-top: 8px;
+        }
+      }
+      .balance-usd {
+        margin-top: 8px;
+        color: #808080;
+        p {
+          margin: 0%;
+        }
+      }
+    }
+    .limit {
+      background-color: white;
+      padding: 16px 16px 16px 16px;
+      .title-amount {
+        margin-bottom: 16px;
+        h2 {
+          margin: 0%;
+        }
+      }
+      .amount {
+        margin-bottom: 2px;
+        h2 {
+          margin: 0%;
+        }
+      }
+      .amount-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #f5f5f5;
+        margin-bottom: 16px;
+        padding: 0 16px 0 16px;
+      }
+    }
+  }
+}

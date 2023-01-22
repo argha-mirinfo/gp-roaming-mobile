@@ -1,3 +1,12 @@
+@use './component';
+@use "./roaming-status";
+@use './roaming-offer-details';
+@use './roaming-offer-details-2';
+@use './features-n-conditions-modal';
+@use './success-n-activation-error';
+@use './billing-pay-bill';
+@use './roaming-covarase';
+// @use './abstract/typography';
 @use 'region';
 @use 'offer';
 @use 'base';
@@ -5,7 +14,6 @@
 @use 'components';
 @use 'payment';
 @use 'billing';
-// @use 'bassssss';
 @use 'learnMore';
 @use './faq';
 @use './travelsure';

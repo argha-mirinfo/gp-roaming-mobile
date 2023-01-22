@@ -1,0 +1,36 @@
+.travel-section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px 16px 20px 16px;
+    // margin-bottom: 8px;
+    margin: 14px 0 8px 0px;
+
+    .travel-title{
+        h2{
+            margin: 0%;
+        }
+    }
+
+    .destination-dropdown{
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 13px 0px 13px 16px;
+        box-sizing: border-box;
+        margin: 16px 0px 12px 0px;
+    
+        .destination-name{
+            color: #676767;
+            h3{
+                margin: 0;
+                padding: 0;
+            }
+        }
+        .dropdown-icon{
+            padding-right: 16px;
+        }
+    }
+   
+}

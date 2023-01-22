@@ -18,6 +18,12 @@
         line-height: 22px;
         // margin: 0;
     }
+    @if $type =='h33' {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        // margin: 0;
+    }
     @if $type =='h4' {
         font-weight: 400;
         font-size: 12px;
@@ -30,7 +36,6 @@
         line-height: 20px;
         letter-spacing: 0.005em;
     }
-    
     @if $type =='details' {
         font-weight: 500;
             font-size: 14px;
@@ -51,6 +56,16 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
+    }
+    @if $type == 'balance' {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    @if $type == 'balance-tk' {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
     }
 
 }

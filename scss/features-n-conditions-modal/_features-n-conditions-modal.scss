@@ -1,0 +1,31 @@
+#features-condition{
+  width: 360px;
+  margin: 0 auto;
+  background-color: white;
+  .contain {
+    display: flex;
+    flex-direction: column;
+    // padding: 24px 16px;
+    .list-offers {
+      ul {
+        margin: 0;
+        padding: 0 16px;
+      li{
+        margin-bottom: 8px;
+      }
+      }
+    }
+  }
+  .feature-n-condition-btn{
+    text-align: center;
+    background-color: #0078CF;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 0px 10px 0px;
+    margin: 16px;
+    p{
+        margin: 0;
+    }
+}
+
+}

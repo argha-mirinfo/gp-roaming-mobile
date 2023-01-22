@@ -3,7 +3,9 @@
 html {
     font-size: 62.5%;
 }
-.nav-title,.title{
+                     
+.nav-title,.title,.navbar p,.text-content p ,
+.text-content h2,.modal-text p,.title p,.warning-content p,.bill h2,.date h2,.title-amount h2{
     font-family: $ff;
     @include set-font('h2');
 }
@@ -19,22 +21,22 @@ html {
     @include set-font('header-intro');
 }
 .text-box h3, .header-intro h3,h3,.answer,
-.question {
+.question,.content-text,.title-list ul,.country-name h3,.operators-title h2,.operator-name h2,.network h2,.warning-content-muted p,.previous-due-title h2,.previous-due-amount p,.due-date-title h2,.amount h2,.amount-text-2,.balance-usd p,.amount-text-11 p,.destination-name h3,.service-list ul,.country-coverage-text p,.incoming-call-title h2{
     font-family: $ff;
     font-style: $fs;
     @include set-font ('h3');
 }
-.text-box h4{
+.text-box h4,.content-text-1,.validity p,.confim-purchase-btn p,.purchasing p,.list-offers ul,.popular h2,.destinations-countries p,.destinations-countries-1 p,.blp p,.MTNL p,.BSNL p, .Tata p{
     font-family: $ff;
     font-style: $fs;
     @include set-font ('h4');
 }
-button {
+button,.action-btn-dectivate,.action-btn-change,.action-btn-find,.action-btn-activate,.modal-btn-yes p,.modal-btn-not-now p,.feature-n-condition-btn p,.succes-icon-btn p,.Continue-to-Payment-btn p,.go-home-btn p{
     font-family: $ff;
     font-style: $fs;
     @include set-font('button');
 }
-.details {
+.details,.feature-condition h2,.warning-text p {
     font-family: $ff;
     font-style: $fs;
     @include set-font('details');
@@ -44,13 +46,28 @@ button {
     font-style: $fs;
     @include set-font('price');
 }
-section .container .question {
+section .container .question,.content-text-2 h3,.content-title p{
     font-family: $ff;
     font-style: $fs;
     @include set-font('question');
 }
-.list-title {
+.list-title,.title p ,.feature-n-condition h2,.success-content p,.success-content-muted p,.radio-1-text,.radio-2-text,.amount-text-1,input,.destination-country h3{
     font-family: $ff;
     font-style: $fs;
     @include set-font('list-style');
+}
+.balance-title,.travel-title h2,.service-title h2,.country-coverage-title h2,.operator-title h2,.taka-incoming,.tariff-titel h2{
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('balance');
+}
+.balance-tk{
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('balance-tk');
+}
+.destination-names h3{
+    font-family: $ff;
+    font-style: $fs;
+    @include set-font('h33');
 }

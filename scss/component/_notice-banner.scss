@@ -1,0 +1,18 @@
+.notice-banner{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(253, 190, 17, 0.1);
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 16px;
+    .warning-text{
+        padding: 16px 16px 16px 16px;
+        p{
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .warning-icon{
+       padding-left: 16px;  
+    }
+}

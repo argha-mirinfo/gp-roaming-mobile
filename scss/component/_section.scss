@@ -1,0 +1,59 @@
+
+.section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px 16px 20px 16px;
+    // margin-bottom: 8px;
+    margin: 14px 0 8px 0px;
+
+        .content-title{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0;
+            margin-bottom: 8px;
+                p{
+                    margin: 0;
+                    padding: 0;
+                }
+        }
+
+        .title-describe{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+
+            .title{
+                margin-bottom: 8px;
+                p{
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+            .title-list{
+               ul{
+                padding: 0px 16px 0px 16px;
+                margin: 0 0 8px 0;
+                li{
+                    margin: 0 0 4px 0;
+                }
+               }
+            }
+        }
+        .list-validity-price{
+            .validity{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                color: #676767;
+                p{
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+          
+        }
+
+    
+}

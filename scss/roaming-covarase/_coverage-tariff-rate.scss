@@ -1,0 +1,141 @@
+#tariff-rate{
+    width: 360px;
+    margin: 0 auto;
+    background-color: #EFF2F5;
+     
+    .container{
+        .travel-section{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            padding: 16px 16px 20px 16px;
+            // margin-bottom: 8px;
+            margin: 14px 0 8px 0px;
+            .travel-title{
+                h2{
+                    margin: 0%;
+                }
+            }
+            .destination-dropdown{
+                background-color: #F5F5F5;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 13px 0px 13px 16px;
+                box-sizing: border-box;
+                margin: 16px 0px 12px 0px;
+            
+                .destination-names{
+                    h3{
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+                .dropdown-icon{
+                    padding-right: 16px;
+                }
+            }
+            
+        }
+        .operator-n-traiff-section{
+            background-color: white;
+            padding: 16px 16px 20px 16px;
+
+            .operator-title{
+                h2{
+                    margin: 0%;
+                }
+            }
+            .operator{
+                display: flex;
+                flex-direction: column;
+
+                .operator-lists{
+                    display: flex;
+                    flex-direction: row;
+                 
+                    .blp{
+                        display: flex;
+                        flex-direction: row;
+                        text-align: center;
+                        border: 0.75px solid #0078CF;
+                        border-radius: 50px;
+                        color: #0078CF;
+                        margin: 16px 8px 16px 0px;
+                        margin-left: 0%;
+                        p{
+                            margin: 0%;
+                            padding: 7px 8px 7px 4px;
+                        }
+                        svg{
+                           
+                                padding: 4px 0px 4px 5px;
+                           
+                        }
+                    }
+                    .MTNL,.BSNL,.Tata{
+                        display: flex;
+                        flex-direction: row;
+                        text-align: center;
+                        border: 0.75px solid #D6D6D6;
+                        border-radius: 50px;
+                        color: #676767;
+                        margin: 16px 8px 16px 0px;
+                        margin-left: 0%;
+        
+                        p{
+                            margin: 0%;
+                            padding: 7px 8px 7px 4px;
+                        }
+                        svg{
+                           
+                                padding: 4px 0px 4px 5px;
+                           
+                        }
+                        img{
+                            margin: 0%;
+                            padding: 4px 0px 4px 5px;
+                        }
+                        .Tata{
+                            margin-right: 0%;
+                            margin-left: 20px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .tariff{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            
+            .tariff-titel{
+                margin: 16px 0 20px 0;
+               h2{
+                    margin: 0%;
+               } 
+            }
+            .incoming-call{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 0px 0 20px 0;
+
+                .incoming-call-title{
+                    h2{
+                        margin: 0%;
+                        padding: 0%;
+                    }
+                }
+                .incoming-call-amount{
+                    p{
+                        margin: 0%;
+                        padding: 0%;
+                    }
+                }
+            }
+            
+        }
+    }
+}

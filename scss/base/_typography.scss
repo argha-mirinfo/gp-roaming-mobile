@@ -21,12 +21,12 @@ html {
     @include set-font('header-intro');
 }
 .text-box h3, .header-intro h3,h3,.answer,
-.question,.content-text,.title-list ul,.country-name h3,.operators-title h2,.operator-name h2,.network h2,.warning-content-muted p,.previous-due-title h2,.previous-due-amount p,.due-date-title h2,.amount h2,.amount-text-2,.balance-usd p,.amount-text-11 p,.destination-name h3,.service-list ul,.country-coverage-text p{
+.question,.content-text,.title-list ul,.country-name h3,.operators-title h2,.operator-name h2,.network h2,.warning-content-muted p,.previous-due-title h2,.previous-due-amount p,.due-date-title h2,.amount h2,.amount-text-2,.balance-usd p,.amount-text-11 p,.destination-name h3,.service-list ul,.country-coverage-text p,.incoming-call-title h2{
     font-family: $ff;
     font-style: $fs;
     @include set-font ('h3');
 }
-.text-box h4,.content-text-1,.validity p,.confim-purchase-btn p,.purchasing p,.list-offers ul,.popular h2,.destinations-countries p,.destinations-countries-1 p{
+.text-box h4,.content-text-1,.validity p,.confim-purchase-btn p,.purchasing p,.list-offers ul,.popular h2,.destinations-countries p,.destinations-countries-1 p,.blp p,.MTNL p,.BSNL p, .Tata p{
     font-family: $ff;
     font-style: $fs;
     @include set-font ('h4');
@@ -56,7 +56,7 @@ section .container .question,.content-text-2 h3,.content-title p{
     font-style: $fs;
     @include set-font('list-style');
 }
-.balance-title,.travel-title h2,.service-title h2,.country-coverage-title h2{
+.balance-title,.travel-title h2,.service-title h2,.country-coverage-title h2,.operator-title h2,.taka-incoming,.tariff-titel h2{
     font-family: $ff;
     font-style: $fs;
     @include set-font('balance');
